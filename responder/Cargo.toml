@@ -1,0 +1,6 @@
+[package]
+name = "responder"
+version = "0.1.0"
+authors = ["Andy Lowry <andy@andylowry.me.uk>"]
+
+[dependencies]
