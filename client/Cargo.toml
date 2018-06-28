@@ -4,3 +4,11 @@ version = "0.1.0"
 authors = ["Andy Lowry <andy@andylowry.me.uk>"]
 
 [dependencies]
+chrono = "*"
+futures = "*"
+tokio = "*"
+tokio-timer = "*"
+lazy_static = "*"
+log = "*"
+trust-dns = { version = "*", default-features = false, features = [ "mdns" ]}
+trust-dns-server = { version = "*", default-features = false}
